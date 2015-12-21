@@ -1,4 +1,4 @@
-package com.micky.retrofitrxandroiddragger2;
+package com.micky.retrofitrxandroiddagger2;
 
 import org.junit.Test;
 

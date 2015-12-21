@@ -1,4 +1,4 @@
-package com.micky.retrofitrxandroiddragger2.common.utils;
+package com.micky.retrofitrxandroiddagger2.common.utils;
 
 
 import android.content.Context;

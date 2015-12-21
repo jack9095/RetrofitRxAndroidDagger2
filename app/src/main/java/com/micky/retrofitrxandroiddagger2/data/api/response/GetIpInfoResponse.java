@@ -1,7 +1,7 @@
-package com.micky.retrofitrxandroiddragger2.data.api.response;
+package com.micky.retrofitrxandroiddagger2.data.api.response;
 
 
-import com.micky.retrofitrxandroiddragger2.data.api.model.IpInfo;
+import com.micky.retrofitrxandroiddagger2.data.api.model.IpInfo;
 
 /**
  * @Project CommonProject

@@ -1,4 +1,4 @@
-package com.micky.retrofitrxandroiddragger2.data.api.response;
+package com.micky.retrofitrxandroiddagger2.data.api.response;
 
 /**
  * @Project CommonProject

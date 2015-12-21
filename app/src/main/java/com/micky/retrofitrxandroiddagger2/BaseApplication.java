@@ -1,12 +1,12 @@
-package com.micky.retrofitrxandroiddragger2;
+package com.micky.retrofitrxandroiddagger2;
 
 import android.app.Application;
 
-import com.micky.retrofitrxandroiddragger2.common.utils.CrashHandler;
+import com.micky.retrofitrxandroiddagger2.common.utils.CrashHandler;
 
 /**
- * @Project RetrofitRxAndroidDragger2
- * @Packate com.micky.retrofitrxandroiddragger2
+ * @Project retrofitrxandroiddagger2
+ * @Packate com.micky.retrofitrxandroiddagger2
  * @Description
  * @Author Micky Liu
  * @Email mickyliu@126.com

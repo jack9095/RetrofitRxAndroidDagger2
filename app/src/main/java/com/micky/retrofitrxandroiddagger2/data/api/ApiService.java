@@ -1,14 +1,15 @@
-package com.micky.retrofitrxandroiddragger2.data.api;
+package com.micky.retrofitrxandroiddagger2.data.api;
 
-import com.micky.retrofitrxandroiddragger2.data.api.response.GetIpInfoResponse;
+import com.micky.retrofitrxandroiddagger2.data.api.response.GetIpInfoResponse;
 
+import retrofit.Call;
 import retrofit.http.GET;
 import retrofit.http.Query;
 import rx.Observable;
 
 /**
- * @Project RetrofitRxAndroidDragger2
- * @Packate com.micky.retrofitrxandroiddragger2.data.api
+ * @Project retrofitrxandroiddagger2
+ * @Packate com.micky.retrofitrxandroiddagger2.data.api
  * @Description
  * @Author Micky Liu
  * @Email mickyliu@126.com
@@ -16,7 +17,7 @@ import rx.Observable;
  * @Version 0.1
  */
 public interface ApiService {
-    /*@GET("service/getIpInfo.php")
+  /*  @GET("service/getIpInfo.php")
     Call<GetIpInfoResponse> getIpInfo(@Query("ip") String ip);*/
 
     @GET("service/getIpInfo.php")
