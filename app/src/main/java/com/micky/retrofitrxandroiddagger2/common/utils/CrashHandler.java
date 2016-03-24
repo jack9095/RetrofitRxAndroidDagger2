@@ -43,6 +43,7 @@ public class CrashHandler implements Thread.UncaughtExceptionHandler {
     private Context mContext;
     //用来存储设备信息和异常信息
 
+
     private Map<String, String> infos = new HashMap<String, String>();
 
     //用于格式化日期,作为日志文件名的一部分
