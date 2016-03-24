@@ -7,4 +7,5 @@ public class IpInfo {
     public String area;
     public String area_id;
     public String ip;
+
 }
