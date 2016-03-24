@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         mTvContent = (TextView) findViewById(R.id.tv_content);
-        mProgressBar = (ProgressBar) findViewById(R.id.progress_bar);
+//        mProgressBar = (ProgressBar) findViewById(R.id.progress_bar);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
