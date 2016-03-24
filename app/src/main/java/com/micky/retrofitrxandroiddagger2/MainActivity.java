@@ -26,15 +26,7 @@ import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Action1;
 import rx.schedulers.Schedulers;
 
-/**
- * @Project retrofitrxandroiddagger2
- * @Packate com.micky.retrofitrxandroiddagger2
- * @Description
- * @Author Micky Liu
- * @Email mickyliu@126.com
- * @Date 2015-12-21 17:35
- * @Version 0.1
- */
+
 public class MainActivity extends AppCompatActivity {
 
     private static final String ENDPOINT = "http://ip.taobao.com";
@@ -80,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
                 });*/
 
                 Retrofit retrofit = new Retrofit.Builder()
-                        .baseUrl(ENDPOINT)
+                        .baseUrl("http://ip.taobao.com")
                         .addConverterFactory(GsonConverterFactory.create())
                         .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
                         .build();
@@ -107,21 +99,5 @@ public class MainActivity extends AppCompatActivity {
                         });
             }
         });
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
     }
 }

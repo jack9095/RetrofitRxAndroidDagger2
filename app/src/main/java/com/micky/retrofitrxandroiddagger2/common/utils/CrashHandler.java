@@ -6,9 +6,6 @@ import android.util.Log;
 
 /**
  * @Description 全局Crash捕获处理
- * @Author Micky Liu
- * @Email sglazelhw@126.com
- * @Date 2015-04-03 下午 1:43
  */
 public class CrashHandler implements Thread.UncaughtExceptionHandler  {
 
@@ -18,13 +15,11 @@ public class CrashHandler implements Thread.UncaughtExceptionHandler  {
     private Thread.UncaughtExceptionHandler mDefaultUEH;
     private Context mContext;
 
-    private CrashHandler() {
-        mDefaultUEH = Thread.getDefaultUncaughtExceptionHandler();
-    }
+    private CrashHandler() {mDefaultUEH = Thread.getDefaultUncaughtExceptionHandler();}
 
     public static CrashHandler getInstance() {
         return INSTANCE;
-    }
+    }  // 单例
 
     public void init(Context ctx) {
         Thread.setDefaultUncaughtExceptionHandler(this);
